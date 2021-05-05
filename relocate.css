@@ -13,6 +13,7 @@
 
 .order {
     margin-left: 200px;
+    float: left;
 }
 
 .preference {
@@ -32,9 +33,10 @@
     float: left;
     margin-left: 200px;
 }
-.describe{
+.desribe{
     float: right;
-    margin-right: 500px;
+    margin-right: 200px;
+    
 }
 .box{
     float: right;
@@ -43,4 +45,16 @@
 .means{
     float: left;
     margin-left: 300px;
+}
+.map{
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+    
+}
+.header{
+    margin: auto;
+}
+.storage{
+    margin: auto;
 }
