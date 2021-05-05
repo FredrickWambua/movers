@@ -28,3 +28,19 @@
     justify-content: center;
     font-weight: 800;
 }
+.picture{
+    float: left;
+    margin-left: 200px;
+}
+.describe{
+    float: right;
+    margin-right: 500px;
+}
+.box{
+    float: right;
+    margin-right: 300px;
+}
+.means{
+    float: left;
+    margin-left: 300px;
+}
