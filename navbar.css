@@ -58,23 +58,23 @@ a{
     padding-left: 550px;
     padding-right: 40px;
 }
-#btn{
-    background-color: blue; /* Green */
-    border: none;
-    color: white;
-    padding: 4px 8px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+.btn{
+    vertical-align: top;
+    width: 50px;
+    cursor: pointer;
+}
+#signup{
+    padding: 10px;
+    float: right;
     cursor: pointer;
 }
 
 
-.fast_food img{
+.about img{
     padding-left: 1%;
     display: block;
 }
-.fast_food{
+.about{
     padding-left: 1%;
     padding-bottom: 50px;
 
@@ -82,23 +82,15 @@ a{
 #p{
     float: right;
     padding-right: 50px;
+    padding-left: 100px;
 }
-.fast_food2{
-    padding-left: 12%;
 
-}
-.fast_food2 img{
-    display: inline;
-    padding-bottom: 50px;
-
-
-}
 #p2{
     float: left;
     padding-left: 195px;
 }
 #img{
-    height: 298px;
+    height: 300px;
     width: 519px;
 }
 #h1{
@@ -126,22 +118,130 @@ img {
     font-weight: bold;
 }
 
-.container{
-    padding-top: 100p;
-    background-image: url("img/backgrounds/subscribe.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px 40px;
-    text-align: center;
-    color: white;
-}
-.container p{
-    max-width: 600px;
-    margin: 40px auto;
-    font-size: 15px;
-    font-weight: 300;
+
     
-  
+    .footer{
+    background:#52B1CF;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0 auto;
+    }
+    
+    .footer .column{
+    width:20%;
+    margin:0% 1%;
+    display:inline-block;
+    }
+    
+    .footer .column ul{
+    width:100%;
+    }
+    
+    .footer .column ul li{
+    list-style:none;
+    padding:5px 0px;
+    color:gray;
+    }
+    
+    .footer .column ul li a{
+    text-decoration:none;
+    font-size:1em;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .column ul li a:hover{
+    color:#f7bd00;
+    }
+    
+    .footer .column ul .title{
+    font-family: 'Fredoka One', cursive;
+    font-size:1.2em;
+    color:#fff;
+    }
+    
+    .footer .column ul li input{
+    padding:10px 10px;
+    outline:none;
+    border:0;
+    width:65%;
+    height:28px;
+    color:#1e1e1e;
+    }
+    
+    .footer .column ul li .btn1{
+
+    outline:none;
+    border:0;
+    padding:5px;
+    color:#fff;
+    height:44px;
+    position:relative;
+    top:1px;
+    font-size:0.5em;
+    background:#f7bd00;
+    }
+    
+    .footer .column ul li i{
+    font-size:2em;
+    margin:0px 10px;
+    }
+    
+    .sub-footer{
+    background:#1e1e1e;
+    padding:5px 0px;
+    text-align:center;
+    color:gray;
+    font-size:12px;
+    font-family: 'Play', sans-serif;
+    }
+    
+    @media (max-width:720px){
+    .footer .column{
+    width:90%;
+    display:block;
+    margin:0% 0%;
+    }
+    
+    .footer .column:nth-child(2),.footer .column:nth-child(3){
+    width:40%;
+    display:inline-block;
+    }
+    }
+    
+    @media (max-width:1200px){
+    .footer .column ul li input{
+    padding:5px 5px;
+    outline:none;
+    border:0;
+    width:70%;
+    height:34px;
+    color:#1e1e1e;
+    }
+    .footer .column ul li .btn1{
+    position:relative;
+    top:2px;
+    }
+    }
+    
+    @media (max-width:940px){
+    .footer .column ul li input{
+    padding:5px 5px;
+    outline:none;
+    border:0;
+    width:60%;
+    height:34px;
+    color:#1e1e1e;
+    }
+    .footer .column ul li .btn1{
+    position:relative;
+    top:2px;
+    }
+    }
+    
 
 
-}
+
+
