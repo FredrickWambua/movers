@@ -1,8 +1,30 @@
 .intro {
     text-align: left;
-    margin-right: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.intro img {
+    float: right;
+    padding: 10px;
 }
 .office {
-    margin-right: 0%;
     text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.office img{
+    float: left;
+    padding: 10px;
+}
+.office .article {
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    background-image: url(./assets/lorries\ collection.jpeg);
+    text-align: center;
+    border-radius: 50px;
+    margin: left 200px;
+    margin-right: 200px;
 }
