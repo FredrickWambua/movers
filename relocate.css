@@ -31,8 +31,8 @@
 .picture{
     float: left;
     margin-left: 200px;
-    height: 200;
-     width:300;
+    height: 300;
+     width:500;
 }
 .desribe{
     float: right;
@@ -43,8 +43,8 @@
     float: right;
     margin-right: 300px;
     padding-top: 100px;
-    height: 200;
-     width:300;
+    height: 300;
+     width:500;
 }
 .means{
     float: left;
