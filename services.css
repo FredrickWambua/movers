@@ -1,30 +1,35 @@
 .intro {
     text-align: left;
     display: flex;
-    flex-direction: row;
+    margin-bottom: 50px;
+    background-color: burlywood;
 }
-.intro img {
+#domestic{
+    text-align: center;
+}
+.homemove{
     float: right;
-    padding: 10px;
+    width: 500px;
+    height: 300px;
 }
 .office {
     text-align: right;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    background-color: burlywood;
 }
-.office img{
+.officerelocation{
     float: left;
-    padding: 10px;
+    width: 500px;
+    height: 300px;
 }
 .office .article {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
 }
 .quote {
     background-image: url(./assets/lorries\ collection.jpeg);
     text-align: center;
     border-radius: 50px;
-    margin: left 200px;
-    margin-right: 200px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
