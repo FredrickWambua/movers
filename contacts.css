@@ -8,7 +8,7 @@ body{
 
 h1{
     font-size: 32px;
-    line-height: 37.5px;
+    line-height: 36px;
     font-weight: 700;
     font-family: Roboto;
 }
@@ -37,16 +37,21 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: lightblue;
+    margin-top: 70px;
+    width: 60%;
 }
+
+
 
 
 input{
     display: block;
-    background-color: #C4C4C4;
+    background-color: white;
     margin: 5px;
     width: 465px;
     height: 40px;
-    border: none;
+    /* border: none; */
 }
 input::placeholder{
     font-size: 14px;
@@ -65,7 +70,7 @@ textarea::placeholder{
 }
 textarea{
     display: block;
-    background-color: #C4C4C4;
+    background-color: white;
     margin: 5px;
     width: 465px;
     height: 100px;
@@ -75,21 +80,12 @@ textarea{
 pre{
     width: 259px;
     height: 131px;
-
-
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
-}
-.imgMap{
-    width: 487px;
-    height: 220px;
-    background-image: url(/assets/map.jpeg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 26px;
 }
 
 .contact{
