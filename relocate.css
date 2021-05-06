@@ -7,7 +7,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    /* margin: 4px 2px; */
     cursor: pointer;
 }
 
@@ -32,6 +31,8 @@
 .picture{
     float: left;
     margin-left: 200px;
+    height: 200;
+     width:300;
 }
 .desribe{
     float: right;
@@ -41,6 +42,9 @@
 .box{
     float: right;
     margin-right: 300px;
+    padding-top: 100px;
+    height: 200;
+     width:300;
 }
 .means{
     float: left;
@@ -54,7 +58,15 @@
 }
 .header{
     margin: auto;
+
 }
 .storage{
     margin: auto;
+}
+.locomotive{
+    padding-top: 400px;
+
+}
+.godown{
+    padding-top: 100px;
 }
