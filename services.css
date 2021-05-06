@@ -1,0 +1,35 @@
+.intro {
+    text-align: left;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: burlywood;
+}
+#domestic{
+    text-align: center;
+}
+.homemove{
+    float: right;
+    width: 500px;
+    height: 300px;
+}
+.office {
+    text-align: right;
+    display: flex;
+    background-color: burlywood;
+}
+.officerelocation{
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+.office .article {
+    text-align: center;
+}
+.quote {
+    background-image: url(./assets/lorries\ collection.jpeg);
+    text-align: center;
+    border-radius: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
