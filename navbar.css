@@ -37,7 +37,7 @@ a{
 .p > p{
     vertical-align: top;
     margin-right: 20px;
-    float: left;
+    float:left;
     height: 80px;        
     line-height: 80px; 
     padding-right: 80px;
@@ -85,10 +85,7 @@ a{
     padding-left: 100px;
 }
 
-#p2{
-    float: left;
-    padding-left: 195px;
-}
+
 #img{
     height: 300px;
     width: 519px;
