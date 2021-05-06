@@ -1,0 +1,147 @@
+.navigation-bar {
+    width: 100%;  
+    height: 50px; 
+    background-color: white; 
+}
+.logo {
+  
+    vertical-align: top;
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 30px; 
+    float: left;
+       
+}
+.navigation-bar > a {
+   
+    vertical-align: top;
+    margin-right: 20px;
+    float: right;
+    height: 80px;        
+    line-height: 80px; 
+    padding-right: 80px;   
+}
+a:hover{
+    color:green;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.p{
+    display: inline;
+}
+.p > p{
+    vertical-align: top;
+    margin-right: 20px;
+    float: left;
+    height: 80px;        
+    line-height: 80px; 
+    padding-right: 80px;
+    
+    
+}
+#button{
+    vertical-align: top;
+    width: 50px;
+    /* height: 80px; */
+    /* margin-right: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 30px;  */
+    float: right;
+}
+#label{
+    padding-left: 550px;
+    padding-right: 40px;
+}
+#btn{
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.fast_food img{
+    padding-left: 1%;
+    display: block;
+}
+.fast_food{
+    padding-left: 1%;
+    padding-bottom: 50px;
+
+}
+#p{
+    float: right;
+    padding-right: 50px;
+}
+.fast_food2{
+    padding-left: 12%;
+
+}
+.fast_food2 img{
+    display: inline;
+    padding-bottom: 50px;
+
+
+}
+#p2{
+    float: left;
+    padding-left: 195px;
+}
+#img{
+    height: 298px;
+    width: 519px;
+}
+#h1{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    padding-top: 100p;
+    background-image: url("img/backgrounds/subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 40px;
+    text-align: center;
+    color: white;
+}
+.container p{
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 15px;
+    font-weight: 300;
+    
+  
+
+
+}
