@@ -11,12 +11,8 @@
 **{JACKSON MULINGE}**
 
 ## Description
-{This application monitors milk production and sales .
-It keeps records of the cows that produce milk and from sheds,
-from then it accounts all that into one banner 
-that is all the milk produced by the cows in the farm. 
-After taking into account all that we
-tabulate the earnings from the animals as well on a weekly basis then later sum it all up into a yearly income.}
+{This application is used to unite movers and ther customers. We made this so people can just log into ther accounts and enter their details of 
+where they are and where the want to go and then it will connect you to available drivers and display their rates or rates for the trip you request. }
 
 Setup/Installation Requirements
 * We first set up the HTMl information… all the paragraphs and data needed.
