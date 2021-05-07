@@ -1,20 +1,75 @@
+.navigation-bar {
+    width: 100%;  
+    height: 50px; 
+    background-color: white; 
+}
+.logo {
+  
+    vertical-align: top;
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 30px; 
+    float: left;
+       
+}
+.navigation-bar > a {
+   
+    vertical-align: top;
+    margin-right: 20px;
+    float: right;
+    height: 80px;        
+    line-height: 80px; 
+    padding-right: 80px;   
+}
+a:hover{
+    color:green;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.order {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.order p{
+    font-size: 30px;
+}
+
 .button {
     background-color: #475885;
     color: white;
+    display: block;
     margin: 30px;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    width: 50%;
+    margin-left: 155px;
+
+    
+}
+.map{
+   width: 50%;
+   margin-right: auto;
+   margin-left: auto;
 }
 
-.order {
-    margin-left: 200px;
-    float: left;
+.locomotive{
+    justify-content: space-evenly;
+    margin: 30;
+
 }
+
 
 .preference {
     margin-left: 500px;
@@ -31,43 +86,45 @@
 }
 .picture{
     float: left;
-    margin-left: 200px;
-    height: 300;
-     width:500;
+    margin-left: 30px;
+    height: 300px;
+    width:500px;
 }
 .relocate{
     float: right;
-    margin-right: 200px;
-    
-}
-.box{
-    float: right;
-    margin-right: 400px;
-    padding-top: 100px;
-    height: 300;
-     width:500;
-}
-.means{
-    float: left;
-    margin-left: 200px;
-}
-.map{
-    float: right;
-    margin-right: 200px;
-    margin-top: 50px;
-    
-}
-.header{
-    margin: auto;
-
-}
-.storage{
-    margin: auto;
-}
-.locomotive{
-    padding-top: 400px;
-
+    text-align: center;
+    padding-left: 30px;
+ 
 }
 .godown{
-    padding-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: skyblue;
+    height: 120vh;
+
+}
+
+.settle{
+   float: right;
+   margin-right: 30px;
+}
+
+.storage{
+    padding-top: 30px;
+    display: flex;
+    text-align: center;
+}
+.room{
+  margin-top: 30px;
+
+}
+.box{
+    margin-top: 30px;
+}
+.settling-p{
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;
 }

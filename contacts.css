@@ -1,10 +1,52 @@
-body{
+
+.navigation-bar {
+    width: 100%;  
+    height: 50px; 
+    background-color: white; 
+}
+.logo {
+  
+    vertical-align: top;
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 30px; 
+    float: left;
+       
+}
+.navigation-bar > a {
+   
+    vertical-align: top;
+    margin-right: 20px;
+    float: right;
+    height: 80px;        
+    line-height: 80px; 
+    padding-right: 80px;   
+}
+
+a:hover{
+    color:green;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.order {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+/* body{
     margin: 0;
     padding: 0;
 
     box-sizing: border-box;
     background-color: #FFFFFF;
-}
+} */
 
 h1{
     font-size: 32px;
@@ -26,23 +68,19 @@ h3{
 
  color: #000000;
 }
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .formWrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: lightblue;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
-
-
 
 
 input{
@@ -79,16 +117,13 @@ textarea{
 
 pre{
     width: 259px;
-<<<<<<< HEAD
     height: 130px;
-=======
-    height: 131px;
->>>>>>> 5bee1746aeee7db4274c40b101bcc84e1f9291d4
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 21px;
+    margin-right: 100px;
 }
 
 .contact{
@@ -98,3 +133,113 @@ pre{
     justify-content: center;
     margin: 20px ;
 }
+
+.footer{
+    background:#52B1CF;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0 auto;
+    }
+    
+    .footer .column{
+    width:20%;
+    margin:0% 1%;
+    display:inline-block;
+    }
+    
+    .footer .column ul{
+    width:100%;
+    }
+    
+    .footer .column ul li{
+    list-style:none;
+    padding:5px 0px;
+    color:gray;
+    }
+    
+    .footer .column ul li a{
+    text-decoration:none;
+    font-size:1em;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .column ul li a:hover{
+    color:#f7bd00;
+    }
+    
+    .footer .column ul .title{
+    font-family: 'Fredoka One', cursive;
+    font-size:1.2em;
+    color:#fff;
+    }
+    
+    .footer .column ul li input{
+    padding:10px 10px;
+    outline:none;
+    border:0;
+    width:65%;
+    height:28px;
+    color:#1e1e1e;
+    }
+    
+    
+    
+    .footer .column ul li i{
+    font-size:2em;
+    margin:0px 10px;
+    }
+    
+    .sub-footer{
+
+    padding:5px 0px;
+    text-align:center;
+    color:gray;
+    font-size:12px;
+    font-family: 'Play', sans-serif;
+    }
+    
+    @media (max-width:720px){
+    .footer .column{
+    width:90%;
+    display:block;
+    margin:0% 0%;
+    }
+    
+    .footer .column:nth-child(2),.footer .column:nth-child(3){
+    width:40%;
+    display:inline-block;
+    }
+    }
+    
+    @media (max-width:1200px){
+    .footer .column ul li input{
+    padding:5px 5px;
+    outline:none;
+    border:0;
+    width:70%;
+    height:34px;
+    color:#1e1e1e;
+    }
+    .footer .column ul li .btn1{
+    position:relative;
+    top:2px;
+    }
+    }
+    
+    @media (max-width:940px){
+    .footer .column ul li input{
+    padding:5px 5px;
+    outline:none;
+    border:0;
+    width:60%;
+    height:34px;
+    color:#1e1e1e;
+    }
+    .footer .column ul li .btn1{
+    position:relative;
+    top:2px;
+    }
+    } 

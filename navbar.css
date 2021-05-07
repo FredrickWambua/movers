@@ -37,7 +37,7 @@ a{
 .p > p{
     vertical-align: top;
     margin-right: 20px;
-    float: left;
+    float:left;
     height: 80px;        
     line-height: 80px; 
     padding-right: 80px;
@@ -85,10 +85,7 @@ a{
     padding-left: 100px;
 }
 
-#p2{
-    float: left;
-    padding-left: 195px;
-}
+
 #img{
     height: 300px;
     width: 519px;
@@ -171,18 +168,7 @@ img {
     color:#1e1e1e;
     }
     
-    .footer .column ul li .btn1{
-
-    outline:none;
-    border:0;
-    padding:5px;
-    color:#fff;
-    height:44px;
-    position:relative;
-    top:1px;
-    font-size:0.5em;
-    background:#f7bd00;
-    }
+    
     
     .footer .column ul li i{
     font-size:2em;

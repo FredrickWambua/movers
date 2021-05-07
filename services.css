@@ -1,35 +1,187 @@
+.navigation-bar {
+    width: 100%;  
+    height: 50px; 
+    background-color: white; 
+}
+.logo {
+  
+    vertical-align: top;
+    width: 50px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 30px; 
+    float: left;
+       
+}
+.navigation-bar > a {
+   
+    vertical-align: top;
+    margin-right: 20px;
+    float: right;
+    height: 80px;        
+    line-height: 80px; 
+    padding-right: 80px;   
+}
+a:hover{
+    color:green;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
 .intro {
     text-align: left;
     display: flex;
     margin-bottom: 50px;
-    background-color: burlywood;
+ 
+    margin-top: 30px;
 }
 #domestic{
     text-align: center;
+    padding-top: 50px;
 }
 .homemove{
     float: right;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+
 }
 .office {
     text-align: right;
     display: flex;
-    background-color: burlywood;
+    margin-left: 50px;
 }
 .officerelocation{
     float: left;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .office .article {
     text-align: center;
+    margin-right: 50px;
 }
 .quote {
     background-image: url(./assets/lorries\ collection.jpeg);
     text-align: center;
-    border-radius: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+.footer{
+    background:#52B1CF;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 0 auto;
+    }
+    
+    .footer .column{
+    width:20%;
+    margin:0% 1%;
+    display:inline-block;
+    }
+    
+    .footer .column ul{
+    width:100%;
+    }
+    
+    .footer .column ul li{
+    list-style:none;
+    padding:5px 0px;
+    color:gray;
+    }
+    
+    .footer .column ul li a{
+    text-decoration:none;
+    font-size:1em;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .column ul li a:hover{
+    color:#f7bd00;
+    }
+    
+    .footer .column ul .title{
+    font-family: 'Fredoka One', cursive;
+    font-size:1.2em;
+    color:#fff;
+    }
+    
+    .footer .column ul li input{
+    padding:10px 10px;
+    outline:none;
+    border:0;
+    width:65%;
+    height:28px;
+    color:#1e1e1e;
+    }
+    
+    
+    
+    .footer .column ul li i{
+    font-size:2em;
+    margin:0px 10px;
+    }
+    
+    .sub-footer{
+
+    padding:5px 0px;
+    text-align:center;
+    color:gray;
+    font-size:12px;
+    font-family: 'Play', sans-serif;
+    }
+    
+    @media (max-width:720px){
+    .footer .column{
+    width:90%;
+    display:block;
+    margin:0% 0%;
+    }
+    
+    .footer .column:nth-child(2),.footer .column:nth-child(3){
+    width:40%;
+    display:inline-block;
+    }
+    }
+    
+    @media (max-width:1200px){
+    .footer .column ul li input{
+    padding:5px 5px;
+    outline:none;
+    border:0;
+    width:70%;
+    height:34px;
+    color:#1e1e1e;
+    }
+    .footer .column ul li .btn1{
+    position:relative;
+    top:2px;
+    }
+    }
+    
+    @media (max-width:940px){
+    .footer .column ul li input{
+    padding:5px 5px;
+    outline:none;
+    border:0;
+    width:60%;
+    height:34px;
+    color:#1e1e1e;
+    }
+    .footer .column ul li .btn1{
+    position:relative;
+    top:2px;
+    }
+    } 
