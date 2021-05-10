@@ -35,7 +35,7 @@ There might be some bugs that are being continuosly fixed.
 ## Collaboration
 Pull requests are welcome. For major changes and additions, please open an issue first to discuss what you would like to change or add.
 ## License
-This project is licenced under MIT licensing. 
+This project is licenced under MIT licensing https://github.com/FredrickWambua/movers/blob/main/LICENSE
 
 # Acknowledgements
 ###### The aforementioned collaborators
