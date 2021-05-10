@@ -28,7 +28,7 @@ Known Bugs
 {We know this code ha a long way to go to being a fully functional website once we all learn the programming languages, but we are working on a way to make it better and we'll communicate
 as soon as the bugs are all fixed. }
 
-Technologies Used
+Technologies Used.
 {The main tools were HTML for the skeleton, CSS which is pretty fun to work with then additions of JavaScript in this remarkable page of ours.We had fun with math objects in JavaScript.}
 
 Support and contact details
