@@ -186,3 +186,10 @@ pre{
     text-align: center;
     padding-bottom: 10px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
